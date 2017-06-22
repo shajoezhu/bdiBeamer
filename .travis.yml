@@ -2,7 +2,7 @@ sudo: required
 dist: trusty
 before_install:
     - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
-    - mkdir $HOME/texmf/tex/latex/bdi/
+    - mkdir -p $HOME/texmf/tex/latex/bdi/
     - cp -r * $HOME/texmf/tex/latex/bdi/
 script:
     - cd example; pdflatex -interaction=nonstopmode -halt-on-error example.tex
