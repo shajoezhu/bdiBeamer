@@ -10,6 +10,6 @@ Download and copy to `$HOME/texmf/tex/latex/bdi/`
 
 ## Example
 
-![titlePage](./screenShot/snap1.png "Title page")
+![titlePage](./screenShot/snap1.png =250x200 "Title page")
 
-![contentPage](./screenShot/snap2.png "Content page")
+![contentPage](./screenShot/snap2.png =250x200 "Content page")
