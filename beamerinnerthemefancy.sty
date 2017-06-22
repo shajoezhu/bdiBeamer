@@ -1,5 +1,6 @@
 % Copyright 2007 by Marco Barisione
 % Revised 2009 by Tomasz Mazur
+% Revised 2017 by Joe Zhu
 %
 % This file may be distributed and/or modified
 %
@@ -60,7 +61,7 @@
       \else%
         \vskip0.25em%
         {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-      \fi%     
+      \fi%
     \end{beamercolorbox}%
     \vskip1em\par
     \begin{beamercolorbox}[sep=8pt,center,#1]{author}
@@ -91,7 +92,7 @@
       \else%
         \vskip0.25em%
         {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
-      \fi%     
+      \fi%
       \vspace{.125\paperheight}%
     \end{beamercolorbox}%
     \vbox{}\vskip-\beamer@fancy@lineup%
@@ -150,14 +151,14 @@
           \end{beamercolorbox}\vskip0.5em
           {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par}
   \end{columns}
-  
+
   \ifx\beamer@fancy@titlepagefooterlogo\@empty%
   \else%
     \begin{centering}
                   \vbox{}\vfill
                   \includegraphics[width=.7\paperwidth]{\beamer@fancy@titlepagefooterlogo}
                   \vfill
-    \end{centering}	
+    \end{centering}
   \fi%
 }
 
